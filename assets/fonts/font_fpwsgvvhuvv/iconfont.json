@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16346855",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "17735111",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
