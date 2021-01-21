@@ -32,7 +32,7 @@ $(function(){
         }
         $.ajax({
             method:'POST',
-            url:'http://127.0.0.1:8080/api/register',
+            url:'/api/register',
             data:data,
             success:function(res){
                 if(res.status!==0){
@@ -51,7 +51,7 @@ $(function(){
         e.preventDefault()
         $.ajax({
             method:'POST',
-            url:'http://127.0.0.1:8080/api/login',
+            url:'/api/login',
             data:$(this).serialize(),
             success:function(res){
                 console.log(res)
