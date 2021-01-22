@@ -37,7 +37,7 @@ $(function(){
             success:function(res){
                 if(res.status!==0){
                     console.log(res)
-                    return layer.msg('注册失败！')}
+                    return layer.msg(res.message)}
                     layer.msg('注册成功！')
                   $("#goLogin").click()
             }
@@ -55,7 +55,7 @@ $(function(){
             data:$(this).serialize(),
             success:function(res){
                 console.log(res)
-                if(res.status!=0){return layer.msg('登录失败！')}
+                if(res.status!=0){return layer.msg(res.message)}
                 
                 layer.msg('登录成功！')
                 localStorage.setItem('token',res.token)
